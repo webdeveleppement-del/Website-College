@@ -1,0 +1,25 @@
+
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: garden
+};
+
+@font-face {
+  font-family: 'Lobster Two';
+  src: url('/fonts/LobsterTwo-Bold.ttf') format('truetype');
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Lobster Two', cursive;
+}
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}

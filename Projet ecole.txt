@@ -1,0 +1,6 @@
+ID: admin
+Nom d'utilisateur : admin
+Mot de passe       : 1123456789
+url:http://localhost:5173/administration/connexion
+
+

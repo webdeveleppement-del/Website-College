@@ -1,0 +1,136 @@
+.registration-page {
+  display: grid;
+  min-height: 100vh;
+  place-items: center;
+  padding: 120px 24px 60px;
+  background: linear-gradient(135deg, #f7f9fc, #e8f0f5);
+}
+
+.registration-card {
+  width: min(100%, 820px);
+  padding: 42px;
+  background: #fff;
+  border-radius: 26px;
+  box-shadow: 0 20px 65px rgba(15, 61, 94, 0.12);
+}
+
+.registration-back {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  color: #0f3d5e;
+  font-size: 0.85rem;
+  text-decoration: none;
+}
+
+.registration-heading {
+  margin: 36px 0 28px;
+}
+
+.registration-heading > span {
+  color: #d39513;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.registration-heading h1 {
+  margin: 12px 0;
+  color: #092c45;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.registration-heading p {
+  max-width: 620px;
+  margin: 0;
+  color: #68798a;
+  line-height: 1.7;
+}
+
+.registration-success {
+  margin-bottom: 24px;
+  padding: 14px 16px;
+  color: #166534;
+  background: #dcfce7;
+  border: 1px solid #86efac;
+  border-radius: 10px;
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.registration-fields {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.registration-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  color: #092c45;
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+  width: 100%;
+  padding: 13px 14px;
+  color: #102a43;
+  background: #f8fafc;
+  border: 1px solid rgba(15, 61, 94, 0.15);
+  border-radius: 9px;
+  font: inherit;
+  resize: vertical;
+}
+
+.registration-form input:focus,
+.registration-form select:focus,
+.registration-form textarea:focus {
+  outline: 2px solid rgba(244, 185, 66, 0.55);
+  border-color: #f4b942;
+}
+
+.registration-form > label {
+  width: 100%;
+}
+
+.registration-form > button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  gap: 10px;
+  padding: 14px 20px;
+  color: #092c45;
+  background: #f4b942;
+  border: 0;
+  border-radius: 10px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  .registration-page {
+    padding: 100px 15px 40px;
+  }
+
+  .registration-card {
+    padding: 28px 20px;
+  }
+
+  .registration-fields {
+    grid-template-columns: 1fr;
+  }
+
+  .registration-form > button {
+    width: 100%;
+  }
+}

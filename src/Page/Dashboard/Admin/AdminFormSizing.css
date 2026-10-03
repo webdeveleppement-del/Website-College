@@ -1,0 +1,133 @@
+.admin-create-modal {
+  width: min(680px, 100%);
+  max-height: calc(100vh - 40px);
+  overflow-y: auto;
+  padding: 36px;
+}
+
+.admin-create-modal h2 {
+  margin: 0 0 24px;
+  color: #17324d;
+  font-size: 26px;
+}
+
+.admin-create-modal form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.admin-create-modal input,
+.admin-create-modal select,
+.admin-create-modal textarea {
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 48px;
+  padding: 14px 15px;
+  border: 1px solid #dce6ec;
+  border-radius: 9px;
+  outline: 0;
+  background: #fff;
+  color: #17324d;
+  font: inherit;
+  font-size: 14px;
+}
+
+.admin-create-modal textarea {
+  min-height: 130px;
+  resize: vertical;
+}
+
+.admin-create-modal input:focus,
+.admin-create-modal select:focus,
+.admin-create-modal textarea:focus {
+  border-color: #0f3d5e;
+  box-shadow: 0 0 0 3px #0f3d5e14;
+}
+
+.admin-create-modal form button {
+  grid-column: 1 / -1;
+  border: 0;
+  border-radius: 10px;
+  padding: 14px;
+  background: #0f3d5e;
+  color: #fff;
+  font-weight: 800;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.admin-create-modal form button:disabled {
+  opacity: 0.6;
+}
+
+.admin-form {
+  padding: 30px;
+  gap: 16px;
+}
+
+.admin-settings-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr);
+  gap: 20px;
+}
+
+.admin-profile-form h3 {
+  margin: 10px 0 -8px;
+  color: #17324d;
+  font-size: 18px;
+}
+
+.admin-form-hint {
+  margin: 0;
+  color: #7b8491;
+  font-size: 13px;
+}
+
+.admin-form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.admin-form-fields label {
+  display: grid;
+  gap: 7px;
+  color: #526d80;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.admin-success {
+  margin-top: 16px;
+  padding: 13px;
+  border-radius: 10px;
+  background: #dcfce7;
+  color: #166534;
+}
+
+.admin-account-summary {
+  align-self: start;
+}
+
+.admin-form input,
+.admin-form textarea {
+  min-height: 48px;
+  padding: 14px 15px;
+  font-size: 14px;
+}
+
+@media (max-width: 620px) {
+  .admin-create-modal {
+    padding: 28px 22px;
+  }
+
+  .admin-create-modal form {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-settings-grid,
+  .admin-form-fields {
+    grid-template-columns: 1fr;
+  }
+}
