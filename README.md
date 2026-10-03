@@ -6,14 +6,7 @@ Application web de gestion d’établissement scolaire. Le projet comprend un
 site public, des espaces de connexion par rôle et une API REST qui centralise
 les données scolaires.
 
-> **Important** ce dépôt ne fournit aucun
-> identifiant ni mot de passe par défaut. Chaque installation doit créer ses
-> propres comptes. Ne publiez jamais de mot de passe, clé secrète, jeton,
-> donnée personnelle ou fichier `.env` (même dans un exemple qui contient de
-> vraies valeurs). Les fichiers `.env` sont exclus par `.gitignore`; vérifiez
-> néanmoins les fichiers suivis et les commits avant de pousser. Si un secret
-> a déjà été publié, changez-le immédiatement : supprimer le fichier du dernier
-> commit ne le retire pas de l’historique Git.
+
 
 ## Fonctionnalités
 
