@@ -6,7 +6,7 @@ Application web de gestion d’établissement scolaire. Le projet comprend un
 site public, des espaces de connexion par rôle et une API REST qui centralise
 les données scolaires.
 
-> **Important avant publication sur GitHub :** ce dépôt ne fournit aucun
+> **Important** ce dépôt ne fournit aucun
 > identifiant ni mot de passe par défaut. Chaque installation doit créer ses
 > propres comptes. Ne publiez jamais de mot de passe, clé secrète, jeton,
 > donnée personnelle ou fichier `.env` (même dans un exemple qui contient de
