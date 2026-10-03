@@ -1,3 +1,5 @@
+<img width="645" height="430" alt="file" src="https://github.com/user-attachments/assets/8e9147b8-8588-4125-9095-5460ad7a7185" />
+
 # Gestion École
 
 Application web de gestion d’établissement scolaire. Le projet comprend un
